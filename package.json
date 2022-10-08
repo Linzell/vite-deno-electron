@@ -1,0 +1,57 @@
+{
+  "name": "vite-deno-electron",
+  "private": true,
+  "version": "0.0.1",
+  "main": "dist-electron/main/index.js",
+  "description": "Template for building a Deno/Node app with Vite and Electron",
+  "author": "charlie cohen <linzellart@gmail.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "release": "vue-tsc --noEmit && vite build -m electron && electron-builder",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.0.22",
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@intlify/vite-plugin-vue-i18n": "^6.0.1",
+    "@types/node": "^18.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "autoprefixer": "^10.4.12",
+    "electron": "^20.0.2",
+    "electron-builder": "^23.3.3",
+    "eslint": "^8.23.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.5.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.0",
+    "vite-electron-plugin": "^0.4.4",
+    "vue-tsc": "^0.40.4"
+  },
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_HOSTNAME": "127.0.0.1",
+      "VITE_DEV_SERVER_PORT": 3344,
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3344"
+    }
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "keywords": [
+    "electron",
+    "rollup",
+    "vite",
+    "vue3",
+    "vue"
+  ]
+}
