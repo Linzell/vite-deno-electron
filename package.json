@@ -16,7 +16,7 @@
     "vue": "^3.2.45",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6",
-    "multiformats": "^10.0.2"
+    "multiformats": "^10.0.3"
   },
   "devDependencies": {
     "@intlify/vite-plugin-vue-i18n": "^7.0.0",
