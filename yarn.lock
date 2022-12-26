@@ -2583,6 +2583,14 @@ normalize-url@^6.0.1:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
   integrity sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==
 
+notbundle@~0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/notbundle/-/notbundle-0.3.2.tgz#297e8c04894addc089533b027b09cb506e3640c6"
+  integrity sha512-D+Z14qwcWwG/dMPl/k3fsb6zZ9ZyoFNhbhoIr5oCTySqdxpHqao+YTTBEn4RKFEqm3GsD86l1PnkXS21MyrgPw==
+  dependencies:
+    chokidar "^3.5.3"
+    fast-glob "^3.2.12"
+
 nth-check@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/nth-check/-/nth-check-2.1.1.tgz#c9eab428effce36cd6b92c924bdb000ef1f1ed1d"
@@ -3234,13 +3242,13 @@ verror@^1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vite-electron-plugin@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.5.0.tgz#415695dfbf5030afec7f98c579d0702502a577ad"
-  integrity sha512-5cJ3xiucogDFmn/0XJzCABskkHNP4x/W4F6Rfsiu+hSGcNN56nKD6QX4KrYmTBH4bxv6DZs0TpuzTws5k+HPuw==
+vite-electron-plugin@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/vite-electron-plugin/-/vite-electron-plugin-0.6.2.tgz#835093b22e11e8e98ef2f5c2ed69f8560171c681"
+  integrity sha512-fNgDREhaonVMplacnbDmzUvvlgE9Lce2SUo3m0ep/oIkVNwdHVzLVWN5J284jjG0pLDXHuhprQRp1qD3ge14Bw==
   dependencies:
-    chokidar "^3.5.3"
     fast-glob "^3.2.12"
+    notbundle "~0.3.2"
 
 vite@^3.2.4:
   version "3.2.4"
